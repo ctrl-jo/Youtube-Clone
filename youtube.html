@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="stylesheet" href="/styles/youtube.css">
+    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="/styles/general.css">
+    <link rel="stylesheet" href="/styles/sidebar.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="left-section">
+            <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+            <img class="youtube-logo" src="icons/youtube-logo.svg">
+        </div>
+        <div class="mid-section">
+            <input class="yt-textbox" type="text" placeholder="Search">
+            <button class="search-button">
+                <img class="search-icon" src="icons/search-logo.svg">
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="voice-button">
+                <img class="voice-icon" src="icons/voice-search-icon.svg">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+        <div class="right-section">
+            <div class="upload-container">
+                <img class="upload-icon" src="icons/upload-icon.svg">
+                <div class="tooltip">Create</div>
+            </div>
+            <div class="yt-apps-container">
+                <img class="yt-apps-icon" src="icons/youtube-apps-icon.svg">
+                <div class="tooltip">Youtube Apps</div>
+            </div>
+
+            <div class="notif-icon-container">
+                <img class="notifications-icon" src="icons/notifications-icon.svg">
+                <div class="tooltip">Notifications</div>
+                <div class="notif-count">
+                    5
+                </div>
+            </div>
+            <img class="my-channel-picture" src="channel-profile/channel-profile.jpg">
+        </div>
+
+        <nav class="sidebar">
+            <div class="sidebar-link">
+                <img src="icons/sidebar/home.svg">
+                <div>Home</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/sidebar/explore.svg">
+                <div>Explore</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/sidebar/subscriptions.svg">
+                <div>Subscriptions</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/sidebar/originals.svg">
+                <div>Originals</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/sidebar/youtube-music.svg">
+                <div>Youtube Music</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/sidebar/library.svg">
+                <div>Library</div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="youtube-grid">
+            <div>
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=LGcMYWT30XQ&pp=0gcJCdQJAYcqIYzv"><img class="fdrake-src"
+                            src="thumbnail/fake-drake.avif"></a>
+                    <div class="video-time">
+                        6:12
+                    </div>
+                </div>
+
+                <div class="fd-info-grid">
+                    <div class="jdrake-channel">
+                        <a href="https://www.youtube.com/@JimmyKimmelLive"><img class="jdrake-pic"
+                                src="channel-profile/jimmy-drake.jpg"></a>
+                    </div>
+
+                    <div class="jdrake-info">
+                        <a href="https://www.youtube.com/watch?v=LGcMYWT30XQ&pp=0gcJCdQJAYcqIYzv">
+                            <p class="fdrake-title">
+                                I Witness News - Fake Drake
+                            </p>
+                        </a>
+
+                        <a href="https://www.youtube.com/@JimmyKimmelLive">
+                            <p class="fd-channel">
+                                Jimmy Kimmel Live
+                            </p>
+                        </a>
+
+                        <p class="fdrake-date">
+                            21M views &#183; 11 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cavs-container">
+
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=wgVOgGLtPtc&pp=ygUGbGVicm9u"><img class="cavs-thumbnail"
+                            src="thumbnail/2016-cavs.avif"></a>
+                    <div class="video-time">
+                        10:45
+                    </div>
+                </div>
+
+                <div class="cavs-grid">
+                    <div class="cavs-picture-container">
+                        <a href="https://www.youtube.com/@NBA"><img class="cavs-pfpicture"
+                                src="channel-profile/nba-game7.jpg"></a>
+                    </div>
+
+                    <div class="cavs-info">
+                        <a href="https://www.youtube.com/watch?v=wgVOgGLtPtc&pp=ygUGbGVicm9u">
+                            <p class="cavs-vtitle">
+                                Final 3:39 of Game 7 of the 2016 NBA Finals | Cavaliers vs Warriors
+                            </p>
+                        </a>
+
+                        <a href="https://www.youtube.com/@NBA">
+                            <p class="cavs-channel">
+                                NBA
+                            </p>
+                        </a>
+
+                        <p class="cavs-date">
+                            31M views &#183; 8 years ago
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="brbad-container">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=njtfNPB-YKg&pp=ygUNYnJlYWtpbmcgYmFkIA%3D%3D"><img
+                            class="brbad-src" src="thumbnail/breaking-bad.avif"></a>
+                    <div class="video-time">
+                        2:58
+                    </div>
+                </div>
+
+                <div class="brbad-info-grid">
+                    <div class="brbad-channel">
+                        <a href="https://www.youtube.com/@RottenTomatoesTV"><img class="brbad-pic"
+                                src="channel-profile/breaking-bad.jpg"></a>
+                    </div>
+
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=njtfNPB-YKg&pp=ygUNYnJlYWtpbmcgYmFkIA%3D%3D">
+                            <p class="brbad-title">
+                                Breaking Bad - Dealing With Tuco Scene (S1E7) | Rotten Tomatoes TV
+                            </p>
+                        </a>
+
+                        <a href="https://www.youtube.com/@RottenTomatoesTV">
+                            <p class="brbad-channel-name">
+                                Rotten Tomatoes TV
+                            </p>
+                        </a>
+
+                        <p class="brbad-date">
+                            8.5M views &#183; 4 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=piKJOD2s8KY"><img class="codeallday-thumbnail"
+                            src="thumbnail/code-all-day.avif"></a>
+                    <div class="video-time">
+                        2:51
+                    </div>
+                </div>
+
+                <div class="codeallday-grid">
+                    <div>
+                        <a href="https://www.youtube.com/@technetiumm"><img class="codeallday-pfpicture"
+                                src="channel-profile/180secs-coding.jpg"></a>
+                    </div>
+
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=piKJOD2s8KY">
+                            <p class="codeallday-vtitle">
+                                Give me 180 secs and CODING will be your addiction.
+                            </p>
+                        </a>
+
+                        <a href="https://www.youtube.com/@technetiumm">
+                            <p class="codeallday-channel">
+                                TECHNETIUM
+                            </p>
+                        </a>
+
+                        <p class="codeallday-date">
+                            222K views &#183; 1 month ago
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div>
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=TRLSQDCkcaA&list=RDTRLSQDCkcaA&start_radio=1"><img
+                            class="Yebba-src" src="thumbnail/miss-me.avif"></a>
+                    <div class="video-time">
+                        6:00
+                    </div>
+                </div>
+
+                <div class="Yebba-info-grid">
+                    <div>
+                        <a href="https://youtube.com/@drakeofficial?si=jalLWIBROUIcLNkC"><img class="Yebba-pic"
+                                src="channel-profile/fancy-miss-me-drake.jpg"></a>
+                    </div>
+
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=TRLSQDCkcaA&list=RDTRLSQDCkcaA&start_radio=1">
+                            <p class="Yebba-title">
+                                Miss Me ft. Lil Wayne
+                            </p>
+                        </a>
+
+                        <a href="https://youtube.com/@drakeofficial?si=jalLWIBROUIcLNkC">
+                            <p class="Yebba-channel">
+                                Drake
+                            </p>
+                        </a>
+
+                        <p class="Yebba-date">
+                            94M views &#183; 14 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=8iQkvnvt8oY&list=RD8iQkvnvt8oY&start_radio=1&pp=oAcB"><img
+                            class="Yebba-src" src="thumbnail/yebba's-heartbreak.avif"></a>
+                    <div class="video-time">
+                        2:10
+                    </div>
+                </div>
+
+                <div class="Yebba-info-grid">
+                    <div>
+                        <a href="https://www.youtube.com/@peace2752"><img class="Yebba-pic"
+                                src="channel-profile/yebba.jpg"></a>
+                    </div>
+
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=8iQkvnvt8oY&list=RD8iQkvnvt8oY&start_radio=1&pp=oAcB">
+                            <p class="Yebba-title">
+                                yebba's heartbreak
+                            </p>
+                        </a>
+
+                        <a href="https://www.youtube.com/@peace2752">
+                            <p class="Yebba-channel">
+                                peace
+                            </p>
+                        </a>
+
+                        <p class="Yebba-date">
+                            1.1M views &#183; 1 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=euSAgaub3m8&list=RDeuSAgaub3m8&start_radio=1&pp=oAcB"><img
+                            class="Yebba-src" src="thumbnail/juice-goat.avif"></a>
+                    <div class="video-time">
+                        3:32
+                    </div>
+                </div>
+
+                <div class="Yebba-info-grid">
+                    <div>
+                        <a href="https://www.youtube.com/@juicewrldvevo4686"><img class="Yebba-pic"
+                                src="channel-profile/hear-me-calling.jpg"></a>
+                    </div>
+
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=euSAgaub3m8&list=RDeuSAgaub3m8&start_radio=1&pp=oAcB">
+                            <p class="Yebba-title">
+                                Juice WRLD - Hear Me Calling
+                            </p>
+                        </a>
+
+                        <a href="https://www.youtube.com/@juicewrldvevo4686">
+                            <p class="juice-wrld-channel">
+                                Juice WRLD
+                            </p>
+                        </a>
+
+                        <p class="Yebba-date">
+                            75M views &#183; 6 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="thumbnail-row">
+                    <a
+                        href="https://www.youtube.com/watch?v=XXr8fnKffq8&list=RDXXr8fnKffq8&start_radio=1&pp=ygULZHJha2UgZmFuY3mgBwE%3D"><img
+                            class="Yebba-src" src="thumbnail/fancy.avif"></a>
+                    <div class="video-time">
+                        5:19
+                    </div>
+                </div>
+
+                <div class="Yebba-info-grid">
+                    <div>
+                        <a href="https://youtube.com/@drakeofficial?si=jalLWIBROUIcLNkC"><img class="Yebba-pic"
+                                src="channel-profile/fancy-miss-me-drake.jpg"></a>
+                    </div>
+
+                    <div>
+                        <a
+                            href="https://www.youtube.com/watch?v=XXr8fnKffq8&list=RDXXr8fnKffq8&start_radio=1&pp=ygULZHJha2UgZmFuY3mgBwE%3D">
+                            <p class="Yebba-title">
+                                Fancy
+                            </p>
+                        </a>
+
+                        <a href="https://youtube.com/@drakeofficial?si=jalLWIBROUIcLNkC">
+                            <p class="Yebba-channel">
+                                Drake
+                            </p>
+                        </a>
+
+                        <p class="Yebba-date">
+                            8.2M views &#183; 6 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=kqbkfi2wK3g"><img class="ps4-src"
+                            src="thumbnail/ps4-game.avif"></a>
+                    <div class="video-time">
+                        10:03
+                    </div>
+                </div>
+
+                <div class="ps4-info-grid">
+                    <div class="ps4-menu-channel">
+                        <a href="https://www.youtube.com/@spllitz"><img class="ps4-menu-pic"
+                                src="channel-profile/ps4-ps5.jpg"></a>
+                    </div>
+
+                    <div class="ps4-vid-info">
+                        <a href="https://www.youtube.com/watch?v=kqbkfi2wK3g">
+                            <p class="ps4-menu-title">
+                                Looking at PS4 Menu 1 Day Before PS5 Comes Out
+                            </p>
+                        </a>
+
+                        <a href="https://www.youtube.com/@spllitz">
+                            <p class="ps4-name-channel">
+                                spllitz
+                            </p>
+                        </a>
+
+                        <p class="ps4-menu-date">
+                            3.7M views &#183; 4 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=KKboUqwND1Y"><img class="Yebba-src"
+                            src="thumbnail/jcole-nba.avif"></a>
+                    <div class="video-time">
+                        10:48
+                    </div>
+                </div>
+
+                <div class="Yebba-info-grid">
+                    <div>
+                        <a href="https://www.youtube.com/@NBAonTNT"><img class="Yebba-pic"
+                                src="channel-profile/jcole-nbatnt.jpg"></a>
+                    </div>
+
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=KKboUqwND1Y">
+                            <p class="Yebba-title">
+                                J. Cole Puts On a Show For the Home State | All-Star 2019 Halftime Show
+                            </p>
+                        </a>
+
+                        <a href="https://www.youtube.com/@NBAonTNT">
+                            <p class="nbaontnt-channel">
+                                NBA on TNT
+                            </p>
+                        </a>
+
+                        <p class="Yebba-date">
+                            1.4M views &#183; 6 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=pyGbbaMZI-c&list=RDpyGbbaMZI-c&start_radio=1&pp=oAcB"><img
+                            class="Yebba-src" src="thumbnail/higher.avif"></a>
+                    <div class="video-time">
+                        2:55
+                    </div>
+                </div>
+
+                <div class="Yebba-info-grid">
+                    <div>
+                        <a href="https://www.youtube.com/@jennido"><img class="Yebba-pic"
+                                src="channel-profile/higher-jennido.jpg"></a>
+                    </div>
+
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=pyGbbaMZI-c&list=RDpyGbbaMZI-c&start_radio=1&pp=oAcB">
+                            <p class="Yebba-title">
+                                tems "higher" (live performance) | cover by jennido
+                            </p>
+                        </a>
+
+                        <a href="https://www.youtube.com/@jennido">
+                            <p class="Yebba-channel">
+                                jennido
+                            </p>
+                        </a>
+
+                        <p class="Yebba-date">
+                            229K views &#183; 2 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=bPJclsEw66M"><img class="Yebba-src"
+                            src="thumbnail/late-game.avif"></a>
+                    <div class="video-time">
+                        6:30
+                    </div>
+                </div>
+
+                <div class="Yebba-info-grid">
+                    <div>
+                        <a href="https://www.youtube.com/@adot"><img class="Yebba-pic"
+                                src="channel-profile/up-late-on-game.jpg"></a>
+                    </div>
+
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=bPJclsEw66M">
+                            <p class="Yebba-title">
+                                When you stay up late on the game
+                            </p>
+                        </a>
+
+                        <a href="https://www.youtube.com/@adot">
+                            <p class="Yebba-channel">
+                                adot
+                            </p>
+                        </a>
+
+                        <p class="Yebba-date">
+                            3.6M views &#183; 2 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=YZ5tOe7y9x4"><img class="Yebba-src"
+                            src="thumbnail/dev-first-day.avif"></a>
+                    <div class="video-time">
+                        2:21
+                    </div>
+                </div>
+
+                <div class="Yebba-info-grid">
+                    <div>
+                        <a href="https://www.youtube.com/@FryingPan"><img class="Yebba-pic"
+                                src="channel-profile/software-engr.jpg"></a>
+                    </div>
+
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=YZ5tOe7y9x4">
+                            <p class="Yebba-title">
+                                Software engineer interns on their first day be like...
+                            </p>
+                        </a>
+
+                        <a href="https://www.youtube.com/@FryingPan">
+                            <p class="fryingpan-channel">
+                                Frying Pan
+                            </p>
+                        </a>
+
+                        <p class="Yebba-date">
+                            14M views &#183; 4 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=IWxAUCJzDy0&pp=ygUUbmV0d29yayBlbmdpbmVlcmluZyA%3D"><img
+                            class="Yebba-src" src="thumbnail/network-engr.avif"></a>
+                    <div class="video-time">
+                        8:30
+                    </div>
+                </div>
+
+                <div class="Yebba-info-grid">
+                    <div>
+                        <a href="https://www.youtube.com/@NetworkWali"><img class="Yebba-pic"
+                                src="channel-profile/network-eng-career.jpg"></a>
+                    </div>
+
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=IWxAUCJzDy0&pp=ygUUbmV0d29yayBlbmdpbmVlcmluZyA%3D">
+                            <p class="Yebba-title">
+                                Why Network Engineering Is Still the Best Tech Career in 2025
+                            </p>
+                        </a>
+
+                        <a href="https://www.youtube.com/@NetworkWali">
+                            <p class="wali-network-engr-channel">
+                                Wali | Network Engineering
+                            </p>
+                        </a>
+
+                        <p class="Yebba-date">
+                            12K views &#183; 2 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=jW5GhNhBReA"><img class="Yebba-src"
+                            src="thumbnail/ccna.avif"></a>
+                    <div class="video-time">
+                        22:55
+                    </div>
+                </div>
+
+                <div class="Yebba-info-grid">
+                    <div>
+                        <a href="https://www.youtube.com/@DavidBombalTech"><img class="Yebba-pic"
+                                src="channel-profile/packet-tracer.jpg"></a>
+                    </div>
+
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=jW5GhNhBReA">
+                            <p class="Yebba-title">
+                                Build a network with me for free using Cisco Packet Tracer (FREE CCNA 200-301 Course
+                                2025)
+                            </p>
+                        </a>
+
+                        <a href="https://www.youtube.com/@DavidBombalTech">
+                            <p class="David-bombal-tech-channel">
+                                David Bombal Tech
+                            </p>
+                        </a>
+
+                        <p class="Yebba-date">
+                            122K views &#183; 6 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=21s3nKVGLKI"><img class="Yebba-src"
+                            src="thumbnail/jpan-ramen.avif"></a>
+                    <div class="video-time">
+                        26:50
+                    </div>
+                </div>
+
+                <div class="Yebba-info-grid">
+                    <div>
+                        <a href="https://www.youtube.com/@Udonsobahiroshimaokayama"><img class="Yebba-pic"
+                                src="channel-profile/japanese-foods.jpg"></a>
+                    </div>
+
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=jW5GhNhBReA">
+                            <p class="Yebba-title">
+                                The Process of Putting Together a Food Stall To Serving a Bowl of Ramen | Street Food in
+                                Japan
+                            </p>
+                        </a>
+
+                        <a href="https://www.youtube.com/@Udonsobahiroshimaokayama">
+                            <p class="jpan-ramen-title">
+                                Japanese Noodles Udon Soba Hiroshima Okayama
+                            </p>
+                        </a>
+
+                        <p class="Yebba-date">
+                            3.3M views &#183; 2 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+</body>
+
+</html>

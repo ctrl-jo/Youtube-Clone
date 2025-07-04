@@ -1,0 +1,335 @@
+        
+
+        /* Youtube Grid */
+
+        .youtube-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 16px;
+            row-gap: 40px;
+        }
+
+        @media (max-width: 750px) {
+            .youtube-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (min-width: 1000px) {
+            .youtube-grid {
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 500px) {
+            .youtube-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .thumbnail-row {
+            position: relative;
+        }
+
+        .video-time {
+            font-size: 12px;
+            font-weight: 500px;
+            position: absolute;
+            right: 6px;
+            bottom: 8px;
+            background-color: black;
+            color: white;
+            padding-left: 4px;
+            padding-right: 4px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            border-radius: 2px;
+        }
+
+
+
+        /* Drake Video */
+
+        .jdrake-info a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .fdrake-src {
+            width: 100%;
+            margin-bottom: 0px;
+        }
+
+        .fd-info-grid {
+            display: grid;
+            grid-template-columns: 50px 1fr;
+        }
+
+        .fdrake-title {
+            margin-top: 10px;
+            padding-left: 1px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .fd-channel {
+            margin-top: 10px;
+            color: rgb(96, 96, 96);
+            font-size: 12px;
+        }
+
+        .fdrake-date {
+            color: rgb(96, 96, 96);
+            margin-top: 3px;
+            font-size: 12px;
+        }
+
+        .jdrake-channel {
+            padding-right: 10px;   
+        }
+
+        .jdrake-pic {
+            width: 30px;
+            border-radius: 24px;
+            margin-top: 10px;
+        }
+
+
+
+        /* Cavs Video */
+
+        .cavs-grid {
+            display: grid;
+            grid-template-columns: 50px 1fr;
+        }
+
+
+        .cavs-pfpicture {
+            margin-top: 10px;
+            width: 30px;
+        }
+
+        .cavs-thumbnail{
+            width: 100%;
+        }
+
+        .cavs-vtitle {
+            
+            margin-top: 10px;
+            padding-left: 1px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .cavs-channel {
+            width: 50px;
+            color: rgb(96, 96, 96);
+            margin-top: 10px;
+            font-size: 12px;
+        }
+
+        .cavs-date {
+            color: rgb(96, 96, 96);
+            margin-top: 3px;
+            font-size: 12px;
+        }
+
+        .cavs-info, a {
+            text-decoration: none;
+            color: black;
+        }
+
+
+
+        /* Breaking bad */
+
+        .brbad-src {
+            width: 100%;
+            margin-bottom: 0px;
+        }
+
+        .brbad-info-grid {
+            display: grid;
+            grid-template-columns: 50px 1fr;
+        }
+
+        .brbad-channel {
+            padding-right: 10px;   
+        }
+
+        .brbad-pic {
+            width: 30px;
+            border-radius: 24px;
+            margin-top: 10px;
+        }
+
+        .brbad-title {
+            margin-top: 10px;
+            padding-left: 1px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .brbad-channel-name {
+            margin-top: 10px;
+            color: rgb(96, 96, 96);
+            font-size: 12px;
+        }
+
+        .brbad-date {
+            color: rgb(96, 96, 96);
+            margin-top: 3px;
+            font-size: 12px;
+        }
+
+
+
+        /* 180 secs of coding */
+
+        .codeallday-grid {
+            display: grid;
+            grid-template-columns: 50px 1fr;
+            position: relative;
+        }
+
+
+        .codeallday-pfpicture {
+            margin-top: 10px;
+            width: 30px;
+            border-radius: 24px;
+        }
+
+        .codeallday-thumbnail{
+            width: 100%;
+        }
+
+        .codeallday-vtitle {
+            margin-top: 10px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .codeallday-channel {
+            width: 50px;
+            color: rgb(96, 96, 96);
+            margin-top: 10px;
+            font-size: 12px;
+        }
+
+        .codeallday-date {
+            color: rgb(96, 96, 96);
+            margin-top: 3px;
+            font-size: 12px;
+        }
+
+
+        /*  Ps4 menu  */
+
+        .ps4-src {
+            width: 100%;
+            margin-bottom: 0px;
+        }
+
+        .ps4-info-grid {
+            display: grid;
+            grid-template-columns: 50px 1fr;
+        }
+
+        .ps4-menu-channel {
+            padding-right: 10px;   
+        }
+
+         .ps4-menu-pic {
+            width: 30px;
+            border-radius: 24px;
+            margin-top: 10px;
+        }
+
+        .ps4-menu-title {
+            margin-top: 10px;
+            padding-left: 1px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .ps4-name-channel {
+            margin-top: 10px;
+            color: rgb(96, 96, 96);
+            font-size: 12px;
+        }
+
+        .ps4-menu-date {
+            color: rgb(96, 96, 96);
+            margin-top: 3px;
+            font-size: 12px;
+        }
+
+
+
+        /* Yebba's Heartbreak */
+
+        .Yebba-src {
+            width: 100%;
+            margin-bottom: 0px;
+        }
+
+        .Yebba-info-grid {
+            display: grid;
+            grid-template-columns: 50px 1fr;
+        }
+
+        .Yebba-menu-channel {
+            padding-right: 10px;   
+        }
+
+        .Yebba-pic {
+            width: 30px;
+            border-radius: 24px;
+            margin-top: 10px;
+        }
+
+        .Yebba-title {
+            margin-top: 10px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .Yebba-channel {
+            width: 50px;
+            color: rgb(96, 96, 96);
+            margin-top: 10px;
+            font-size: 12px;
+        }
+
+        .Yebba-date {
+            color: rgb(96, 96, 96);
+            margin-top: 3px;
+            font-size: 12px;
+        }
+
+        /* Hear Me Calling - Juice WRLD  (used Yebba's Heartbreak css for less code */
+
+        .juice-wrld-channel, .nbaontnt-channel,
+        .fryingpan-channel, .wali-network-engr-channel,
+        .David-bombal-tech-channel, .jpan-ramen-title {
+            width: 250px;
+            color: rgb(96, 96, 96);
+            margin-top: 10px;
+            font-size: 12px;
+        }
+
+        /* Drake - Fancy (reused css for less code) */
+        /* Drake - Miss me (reused css for less code) */
+
+        /* J. Cole - NBA on TNT */
+
+
+        /* jennido - higher (reused css for less code) */
+
+        /* adot - When you stay up late on the game (reused css for less code) */
+
+        /* Frying Pan - Software engineer interns on their first day be like */
+
+        /* Wali | Network Engineering - Why Network Engineering Is Still the Best Tech Career in 2025 */
+
+        /* David Bombal Tech - Build a network with me for free using Cisco Packet Tracer (FREE CCNA 200-301 Course 2025) */
