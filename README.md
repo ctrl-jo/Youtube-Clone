@@ -114,6 +114,8 @@ Want to build this YouTube Clone yourself? Follow the step-by-step roadmap below
 
 > **💡 Tip**: Each phase includes a checklist, code examples, visual diagrams, and explanations of *why* each technique is used — not just *how*.
 
+> **📌 Note**: The source files in this repository (`index.html`, `styles/`, `icons/`, `thumbnail/`, `channel-profile/`) serve as the **completed reference implementation**. Follow the roadmap to build your own YouTube Clone from scratch in a separate project, and refer back to this repo's code whenever you need guidance or want to compare your progress.
+
 ## Project Status
 
 This is a static frontend learning project. It does not include:
