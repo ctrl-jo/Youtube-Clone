@@ -91,8 +91,28 @@ Youtube-Clone/
 ├── screenshots/
 │   ├── Fullscreen.png
 │   └── Window Screen.png
+├── roadmap/
+│   ├── phase-1-project-setup.md
+│   ├── phase-2-header.md
+│   ├── phase-3-sidebar.md
+│   ├── phase-4-video-grid.md
+│   └── phase-5-responsiveness.md
 └── README.md
 ```
+
+## Development Roadmap
+
+Want to build this YouTube Clone yourself? Follow the step-by-step roadmap below. Each phase covers specific HTML and CSS concepts, includes detailed instructions, and builds on the previous one.
+
+| Phase | Title | Key HTML Concepts | Key CSS Concepts |
+|---|---|---|---|
+| 1 | [Project Setup & Base Styles](roadmap/phase-1-project-setup.md) | HTML5 boilerplate, meta tags, linking stylesheets, Google Fonts, semantic elements | CSS reset, `box-sizing: border-box`, universal selector, `font-family` |
+| 2 | [Building the Header](roadmap/phase-2-header.md) | `<header>`, `<input>`, `<button>`, `<img>` for SVGs, nesting elements | Flexbox, `position: fixed`, `z-index`, hover effects, tooltips, `border-radius`, `object-fit` |
+| 3 | [Building the Sidebar](roadmap/phase-3-sidebar.md) | `<nav>` element, icon + text pattern, semantic navigation | `position: fixed`, `flex-direction: column`, `calc()`, viewport units, hover states |
+| 4 | [Building the Video Grid](roadmap/phase-4-video-grid.md) | `<main>`, `<section>`, `<a>` links, HTML entities, image formats (`.avif`, `.jpg`) | CSS Grid, `grid-template-columns`, `1fr` unit, `relative`/`absolute` positioning, `-webkit-line-clamp`, link styling |
+| 5 | [Responsiveness & Final Polish](roadmap/phase-5-responsiveness.md) | Viewport meta tag | Media queries, breakpoints, `display: none`, `max-width`, `aspect-ratio`, responsive typography |
+
+> **💡 Tip**: Each phase includes a checklist, code examples, visual diagrams, and explanations of *why* each technique is used — not just *how*.
 
 ## Project Status
 
@@ -111,6 +131,12 @@ The project is complete as a visual and structural clone for educational purpose
 **Joseph Mercado**
 
 - GitHub: [https://github.com/ctrl-jo](https://github.com/ctrl-jo)
+
+## Acknowledgments
+
+This project was built following the tutorial by **[SuperSimpleDev](https://www.youtube.com/@SuperSimpleDev)** on YouTube. His step-by-step teaching approach made it possible to learn HTML and CSS by building a real-world project from scratch.
+
+If you're a beginner looking to get started with web development, I highly recommend checking out his channel for clear, beginner-friendly content.
 
 ## License
 
