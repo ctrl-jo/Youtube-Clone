@@ -2,6 +2,16 @@
 
 A responsive frontend clone of the YouTube interface built exclusively with HTML5 and CSS3. This project replicates the core layout and visual design of YouTube's desktop, tablet, and mobile views without any JavaScript frameworks, backend services, or video playback functionality.
 
+## Screenshots
+
+### Fullscreen
+
+![Fullscreen](screenshots/Fullscreen.png)
+
+### Window Screen
+
+![Window Screen](screenshots/Window%20Screen.png)
+
 ## Features
 
 - Fully responsive layout across desktop, tablet, and mobile breakpoints
@@ -78,6 +88,9 @@ Youtube-Clone/
 │   └── youtube.css
 ├── thumbnail/
 │   └── [16 avif video thumbnail images]
+├── screenshots/
+│   ├── Fullscreen.png
+│   └── Window Screen.png
 └── README.md
 ```
 
